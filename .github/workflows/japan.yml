@@ -1,0 +1,13 @@
+name: Japan
+on:
+  workflow_run:
+    workflows:
+      - Hello
+    types:
+      - completed
+
+jobs:
+  japan:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Japan"
