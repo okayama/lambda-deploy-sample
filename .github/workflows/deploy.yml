@@ -34,6 +34,7 @@ jobs:
           pip3 install awscli
           date
           ls -lha
+          more lambda_function.py
           cd lambda
           ls -lha
           #cd lambda && zip -r package.zip ./*
