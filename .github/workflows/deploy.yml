@@ -37,4 +37,4 @@ jobs:
           more lambda_function.py
           zip -r package.zip ./*
           ls -lha
-          aws lambda update-function-code --function-name test-http --zip-file fileb://package.zip --publish
+          aws lambda update-function-code --function-name sample-deploy-from-github --zip-file fileb://package.zip --publish
